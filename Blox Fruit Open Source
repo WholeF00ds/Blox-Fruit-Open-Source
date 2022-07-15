@@ -1,0 +1,28 @@
+-- Gui
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Blox Fruits", "Midnight")
+local Tab = Window:NewTab("Scripts")
+local Section = Tab:NewSection("Scripts")
+
+--Stuff
+
+Section:NewButton("ThunderZ", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+end)
+
+Section:NewButton("Ripper Hub", "", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/BFMobile.lua'))()
+end)
+
+Section:NewButton("String", "", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Putaya/HITBOXKAK/main/PutayaFree"), true))()
+end)
+
+Section:NewButton("Blaze X", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WindowsXp12/BlxzeRBLX/main/BLxzeHub.lua"))()
+end)
+
+Section:NewButton("Hoho Hub", "", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
